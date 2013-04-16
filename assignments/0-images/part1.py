@@ -20,7 +20,7 @@ def interlace(evens, odds):
 
   outimg = None
   # Implement your function here ---------------------------------------------
-
+  outimg = np.vstack(zip(evens,odds))
   #---------------------------------------------------------------------------
   return outimg
 
